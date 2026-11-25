@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blissApp',
+    'chiefApp',
     #Third party apps
     'rest_framework',
     'corsheaders',
@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'BlissfullBloom.urls'
+ROOT_URLCONF = 'ChiefMall.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'BlissfullBloom.wsgi.application'
+WSGI_APPLICATION = 'ChiefMall.wsgi.application'
 
 
 # Database
