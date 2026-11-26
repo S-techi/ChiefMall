@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Services from './pages/Services';
 import Upload from './pages/Upload';
+import Payment from './pages/Payment';
 
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -28,6 +29,7 @@ function App(){
           <Link className="nav-link px-3" to="/contact">Contact</Link>
           <Link className="nav-link px-3" to="/services">Services</Link>
           <Link className="nav-link px-3" to="/upload">Upload Product</Link>
+          <Link className="nav-link px-3" to="/payment">Pay Now</Link>
         </div>
       </nav>
 
@@ -39,6 +41,8 @@ function App(){
         <Route path = "/about" element={<About/>} />
         <Route path = "/services" element={<Services/>} />
         <Route path = "/upload" element={<Upload/>} />
+        <Route path = "/payment" element={<Payment/>} />
+        
 
       </Routes>
 
