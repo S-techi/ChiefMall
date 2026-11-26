@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #project app
     'chiefApp',
 
     #Third party apps
@@ -45,6 +46,9 @@ INSTALLED_APPS = [
 
      #Payments App
     'payments',
+
+    #Api app
+    'products',
 
 ]
 
